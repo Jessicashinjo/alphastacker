@@ -7,10 +7,10 @@ function stackLetters(){
   for (var i = 1; i < alphabetLetters.length; i++) {
     if(i % 5 === 0){
       stacker.push(alphabetLetters[i], " ");
-      console.log("alphabet stack", stacker.join(""));
+      console.log(stacker.join(""));
     } else {
       stacker.push(alphabetLetters[i]);
-      console.log("alphabet stack", stacker.join(""));
+      console.log(stacker.join(""));
     }
   }
 }
